@@ -15,10 +15,11 @@ clf = clf.fit(pomar, resultado)
 peso = input('Entre com o peso: ')
 superficie = input('Entre com a superficie: ')
 
-
 resultadoUsuario= clf.predict([[peso, superficie]])
 
 if resultadoUsuario == 1:
     print('Maca')
 else:
     print('laranja')
+
+print('this is only in the devel branch')
